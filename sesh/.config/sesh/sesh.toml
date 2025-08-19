@@ -1,0 +1,82 @@
+[[session]]
+name = "Tigo"
+path = "~/Documentos/Unnaki/Proyectos/TIGOmomopy/web-tigo/"
+startup_command = "~/.config/sesh/scripts/startup.sh"
+
+[[session]]
+name = "Personal"
+path = "~/Documentos/Unnaki/Proyectos/momopersonalpy/momo2-personal/"
+startup_command = "~/.config/sesh/scripts/startup.sh"
+
+[[session]]
+name = "Jedi-panel"
+path = "~/Documentos/Unnaki/Proyectos/momojedi-panel/momojedi-panel/"
+startup_command = "~/.config/sesh/scripts/startup.sh"
+
+[[session]]
+name = "Mc-wsgateway"
+path = "~/Documentos/Unnaki/Proyectos/ws-mcdonalds/mc-wsgateway/"
+startup_command = "~/.config/sesh/scripts/startup.sh"
+
+[[session]]
+name = "Mcdonalds"
+path = "~/Documentos/Unnaki/Proyectos/mcdonals/mc-admin/"
+startup_command = "~/.config/sesh/scripts/startup.sh"
+
+[[session]]
+name = "Mc-webapp"
+path = "~/Documentos/Unnaki/Proyectos/mc_web_app/mc-webapp/"
+startup_command = "~/.config/sesh/scripts/startup.sh"
+
+[[session]]
+name = "Farmacia"
+path = "~/Documentos/personal_projects/Farmacia/"
+startup_command = "~/.config/sesh/scripts/startup.sh"
+
+[[session]]
+name = "nvimconf"
+path = "~/.config/nvim/"
+startup_command = "nvim"
+
+[[session]]
+name = "seshconf"
+path = "~/.config/sesh/"
+startup_command = "nvim sesh.toml"
+
+[[session]]
+name = "fish config"
+path = "~/.config/fish/"
+startup_command = "nvim config.fish"
+
+[[session]]
+name = "kitty config"
+path = "~/.config/kitty/"
+startup_command = "nvim kitty.conf"
+
+[[session]]
+name = "tmux config"
+path = "~"
+startup_command = "nvim .tmux.conf"
+
+[[session]]
+name = "Home"
+path = "/home/aaron/"
+
+[[session]]
+name = "dotfiles"
+path = "/home/aaron/dotfiles/"
+
+[[session]]
+name = "Notes"
+path = "/home/aaron/Documentos/Obsidian/MyVault/Obsidian-Sync"
+startup_command = "nvim"
+
+[[session]]
+name = "Telecom"
+path = "~/Documentos/Unnaki/Proyectos/telecom-web/telecom-webmigration"
+startup_command = "~/.config/sesh/scripts/startup.sh"
+
+[[session]]
+name = "KeyBindings"
+path = "/home/aaron/.config/hypr"
+startup_command = "vim keybindings.conf"

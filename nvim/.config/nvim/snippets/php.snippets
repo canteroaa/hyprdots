@@ -1,0 +1,29 @@
+snippet try5 "trycatch laravel 5"
+
+    public function ${1}(${2})
+    {
+        try {
+            \$user = \Sentinel::getUser();
+            if(!\$user->hasAnyAccess('${3}')){
+                \Log::error('Unauthorized access attempt',['user' => \$user->username,
+                    'route' => \Request::route()->getActionName()]);
+                return redirect()->back()->with('error', trans('messages.not_privilege'));
+            }
+            ${0}
+        } catch (\Exception \$e) {
+            \Log::error('${4}::${1}',['message' => \$e->getMessage(),
+                'error_file'=>\$e->getFile(), 'error_line' => \$e->getLine()]);
+            return redirect()->back()->with('error', \$e->getMessage());
+        }
+    }
+
+snippet rget "route::get laravel 5"
+
+	Route::get('${1}',['uses'=> '${2}@${3}', 'as' => '${0}']);
+
+snippet fn "basic public function"
+
+	public function ${1}(${2})
+	{
+		${0}
+	}
