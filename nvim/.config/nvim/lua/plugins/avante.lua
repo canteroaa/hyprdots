@@ -2,6 +2,7 @@ return {
   "yetone/avante.nvim",
   event = "VeryLazy",
   version = false, -- Never set this value to "*"! Never!
+  enabled = false,
   opts = {
     -- add any opts here
     -- for example
@@ -26,16 +27,16 @@ return {
         },
       },
     },
-    system_prompt = function()
-      local hub = require("mcphub").get_hub_instance()
-      return hub and hub:get_active_servers_prompt() or ""
-    end,
-    -- Using function prevents requiring mcphub before it's loaded
-    custom_tools = function()
-      return {
-        require("mcphub.extensions.avante").mcp_tool(),
-      }
-    end,
+    -- system_prompt = function()
+    --   local hub = require("mcphub").get_hub_instance()
+    --   return hub and hub:get_active_servers_prompt() or ""
+    -- end,
+    -- -- Using function prevents requiring mcphub before it's loaded
+    -- custom_tools = function()
+    --   return {
+    --     require("mcphub.extensions.avante").mcp_tool(),
+    --   }
+    -- end,
   },
   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
   build = "make",
