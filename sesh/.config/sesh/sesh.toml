@@ -66,10 +66,10 @@ path = "/home/aoc/"
 name = "dotfiles"
 path = "/home/aoc/dotfiles/"
 
-# [[session]]
-# name = "Notes"
-# path = "/home/aoc/Documentos/Obsidian/MyVault/Obsidian-Sync"
-# startup_command = "nvim"
+[[session]]
+name = "Notes"
+path = "/home/aoc/Documents/Obsidian-Sync"
+startup_command = "nvim"
 
 # [[session]]
 # name = "Telecom"

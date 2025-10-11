@@ -10,7 +10,7 @@ return {
     workspaces = {
       {
         name = "personal",
-        path = "~/Documentos/Obsidian/MyVault/Obsidian-Sync/",
+        path = "/home/aoc/Documents/Obsidian-Sync",
       },
     },
     ui = {
