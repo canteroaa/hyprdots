@@ -132,13 +132,13 @@ return {
     opts = {
       -- colorscheme = "rose-pine",
       -- colorscheme = "vscode",
-      -- colorscheme = "catppuccin-mocha",
+      colorscheme = "catppuccin-mocha",
       -- colorscheme = "oldworld",
       -- colorscheme = "base16-black-metal-gorgoroth",
       -- colorscheme = "vague",
       -- colorscheme = "github_dark_default",
       -- colorscheme = "dracula",
-      colorscheme = "tokyonight-night",
+      -- colorscheme = "tokyonight-night",
     },
   },
 }
