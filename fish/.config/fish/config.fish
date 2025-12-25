@@ -83,3 +83,7 @@ abbr .5 'cd ../../../../..'
 abbr mkdir 'mkdir -p'
 
 fish_default_key_bindings
+set -gx PATH $PATH /home/aoc/.config/composer/vendor/bin
+
+# opencode
+fish_add_path /home/aoc/.opencode/bin
