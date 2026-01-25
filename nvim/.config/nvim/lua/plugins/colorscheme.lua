@@ -127,12 +127,20 @@ return {
       -- },
     },
   },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
+  {
+    "webhooked/kanso.nvim",
+    lazy = false,
+    priority = 1000,
+  },
   {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "rose-pine",
       -- colorscheme = "vscode",
-      colorscheme = "catppuccin-mocha",
+      -- colorscheme = "catppuccin-mocha",
+      colorscheme = "moonfly",
+      -- colorscheme = "kanso",
       -- colorscheme = "oldworld",
       -- colorscheme = "base16-black-metal-gorgoroth",
       -- colorscheme = "vague",
