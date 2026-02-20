@@ -22,18 +22,18 @@ return {
     },
   },
 
-  -- {
-  --   "Mofiqul/vscode.nvim",
-  --   config = function()
-  --     local c = require("vscode.colors").get_colors()
-  --     require("vscode").setup({
-  --       group_overrides = {
-  --         CursorLine = { bg = "NONE" },
-  --         CursorLineNr = { fg = c.vscBlue },
-  --       },
-  --     })
-  --   end,
-  -- },
+  {
+    "Mofiqul/vscode.nvim",
+    config = function()
+      local c = require("vscode.colors").get_colors()
+      require("vscode").setup({
+        group_overrides = {
+          CursorLine = { bg = "NONE" },
+          CursorLineNr = { fg = c.vscBlue },
+        },
+      })
+    end,
+  },
 
   {
     "folke/tokyonight.nvim",

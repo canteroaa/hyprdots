@@ -1,6 +1,7 @@
 return {
 
   "adalessa/laravel.nvim",
+  enabled = false,
   dependencies = {
     "tpope/vim-dotenv",
     "MunifTanjim/nui.nvim",
